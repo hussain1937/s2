@@ -8,7 +8,14 @@ git config --global user.email "بريدك الإلكتروني"
 # تهيئة مستودع جديد
 git init my-project
 cd my-project
-
+<p>
+        This example uses the background-image, background-position and background-attachment
+        styles to place the <span class="logo">Deitel & Associates, Inc.</span> logo in the
+        bottom-right corner of the page. Notice how the logo
+        stays in the proper position when you resize the
+        browser window. The background-color fills in where
+        there is no image.
+    </p>
 # إنشاء الملفات
 touch index.html styles.css script.js
 <!DOCTYPE html>
