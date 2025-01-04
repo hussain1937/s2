@@ -1,0 +1,33 @@
+# تحقق من تثبيت Git
+git --version
+
+# إعداد معلومات المستخدم
+git config --global user.name "اسمك"
+git config --global user.email "بريدك الإلكتروني"
+
+# تهيئة مستودع جديد
+git init my-project
+cd my-project
+
+# إنشاء الملفات
+touch index.html styles.css script.js
+
+# إضافة الأكواد إلى الملفات المعنية
+# يمكنك فتح كل ملف في محرر نصوص وإضافة الأكواد التي قدمتها سابقًا.
+
+# إضافة الملفات إلى المرحلة
+git add .
+
+# تسجيل التغييرات
+git commit -m "إضافة مشروع منصة توظيف بسيطة"
+
+# إنشاء فرع جديد
+git branch feature-login
+git checkout feature-login
+
+# دمج الفرع مع الفرع الرئيسي
+git checkout main
+git merge feature-login
+
+# دفع التغييرات إلى GitHub
+git push origin main
